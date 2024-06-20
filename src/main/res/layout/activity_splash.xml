@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="30dp"
+    android:id="@+id/splash_layout_root"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:src="@drawable/umb" />
+
+    <TextView
+        android:id="@+id/text_splash_namecareer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingeniería de Software"
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/text_splash_nameclass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Programacion en Plataformas moviles II"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/text_splash_namestudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estudiante Alan Castillo"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/text_splash_nameteacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Docente Robert Osorio"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/text_splash_dates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VI Semestre - 2023"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
